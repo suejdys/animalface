@@ -312,38 +312,23 @@ body {
 .혜인-animal-title {
     color: #ff6c0a;
 }
-.혜인-animal-celeb {
-    color: #ff6c0a;
-    font-size: 1.2rem;
-}
+
 .해린-animal-title {
     color: #548dd4;
 }
-.해린-animal-celeb {
-    color: #548dd4;
-    font-size: 1.2rem;
-}
+
 .하니-animal-title {
     color: #e56995;
 }
-.하니-animal-celeb {
-    color: #e56995;
-    font-size: 1.2rem;
-}
+
 .다니엘-animal-title {
     color: #9b6b43;
 }
-.다니엘-animal-celeb {
-    color: #9b6b43;
-    font-size: 1.2rem;
-}
+
 .민지-animal-title {
     color: #31849b;
 }
-.민지-animal-celeb {
-    color: #31849b;
-    font-size: 1.2rem;
-}
+
 
 /* gender */
 input#gender {
