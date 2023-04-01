@@ -200,7 +200,7 @@ body {
   height: 2.7rem;
 }
 
-.여우-box {
+.민지-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -209,7 +209,7 @@ body {
   width: 100%;
   background-color: rgba(117, 204, 84, 0.2);
 }
-.여우-bar {
+.민지-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -217,7 +217,7 @@ body {
   border-radius: 10px;
   background-color: rgba(117, 204, 84, 1);
 }
-.강아지-box {
+.하니-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -226,7 +226,7 @@ body {
   width: 100%;
   background-color: rgba(27, 175, 234, 0.2);
 }
-.강아지-bar {
+.하니-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -234,7 +234,7 @@ body {
   border-radius: 10px;
   background-color: rgba(27, 175, 234, 1);
 }
-.고양이-box {
+.다니엘-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -243,7 +243,7 @@ body {
   width: 100%;
   background-color: rgba(251, 176, 59, 0.2);
 }
-.고양이-bar {
+.다니엘-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -251,7 +251,7 @@ body {
   border-radius: 10px;
   background-color: rgba(251, 176, 59, 1);
 }
-.곰-box {
+.해린-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -260,7 +260,7 @@ body {
   width: 100%;
   background-color: rgba(195, 140, 102, 0.2);
 }
-.곰-bar {
+.해린-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -268,40 +268,7 @@ body {
   border-radius: 10px;
   background-color: rgba(195, 140, 102, 1);
 }
-.여우-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(49, 132, 155, 0.2);
-}
-.여우-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(49, 132, 155, 1);
-}
-.토끼-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(235, 166, 190, 0.2);
-}
-.토끼-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(235, 166, 190, 1);
-}
+
 .percent-text {
   font-size: 1rem;
   color: #ffffff;
@@ -325,46 +292,21 @@ body {
 }
 
 
-.고양이-animal-title {
+.민지-animal-title {
     color: #ff6c0a;
-}
-.고양이-animal-celeb {
-    color: #ff6c0a;
-    font-size: 1.2rem;
-}
-.강아지-animal-title {
-    color: #548dd4;
-}
-.강아지-animal-celeb {
-    color: #548dd4;
-    font-size: 1.2rem;
-}
-.토끼-animal-title {
-    color: #e56995;
-}
-.토끼-animal-celeb {
-    color: #e56995;
-    font-size: 1.2rem;
-}
-.곰-animal-title {
-    color: #9b6b43;
-}
-.곰-animal-celeb {
-    color: #9b6b43;
-    font-size: 1.2rem;
-}
-.여우-animal-title {
-    color: #31849b;
-}
-.여우-animal-celeb {
-    color: #31849b;
-    font-size: 1.2rem;
 }
 
-/* gender */
-input#gender {
-  display: none;
+.하니-animal-title {
+    color: #548dd4;
 }
+.다니엘-animal-title {
+    color: #e56995;
+}
+
+.해린-animal-title {
+    color: #9b6b43;
+}
+
 
 label {
   cursor: pointer;
@@ -374,74 +316,4 @@ label {
   box-shadow: 0 0 0 8px #e5e9ea inset;
   border-radius: 30px;
   position: relative;
-}
-
-.knob {
-  position: absolute;
-  width: 41px;
-  top: 0;
-  left: 0;
-  height: 41px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 8px #f470a7 inset;
-  background-color: #fbd4e6;
-  transition: 0.3s;
-}
-
-.knob > i {
-  position: absolute;
-  width: 4px;
-  height: 18px;
-  top: 100%;
-  background-color: #f470a7;
-  left: calc(50% - 2px);
-}
-
-.knob > i:before,
-.knob > i:after {
-  width: 6px;
-  position: absolute;
-  top: 42%;
-  content: "";
-  height: 4px;
-  background-color: #f470a7;
-}
-
-.knob > i:before {
-  left: 4px;
-}
-.knob > i:after {
-  left: -6px;
-}
-
-input:checked + label > .knob {
-  box-shadow: 0 0 0 8px #a1c6dd inset;
-  background-color: #e2ecf4;
-  transform: translateX(49px) rotate(-140deg);
-}
-
-input:checked + label > .knob > i {
-  background-color: #a1c6dd;
-}
-
-input:checked + label > .knob > i:after,
-input:checked + label > .knob > i:before {
-  background-color: #a1c6dd;
-}
-
-input:checked + label > .knob > i:after {
-  top: 14.5px;
-  width: 12px;
-  left: -7px;
-  transform: rotate(45deg);
-}
-input:checked + label > .knob > i:before {
-  top: 13px;
-  width: 12px;
-  left: 0px;
-  transform: rotate(134deg);
-}
-
-.ad-banner {
-    max-width: 320px;
 }
